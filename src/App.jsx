@@ -1,11 +1,12 @@
+import SideBar from "./components/SideBar/SideBar"
+
 
 
 function App() {
 
   return (
-    <div className="bg-slate-500 text-white">
-      hey
-      hey from sri
+    <div className="">
+      <SideBar/>
     </div>
   )
 }
