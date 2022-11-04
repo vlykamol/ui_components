@@ -1,8 +1,10 @@
+
 import Sidebar from "./components/Sidebar"
 import Slider from "./components/Slider"
 import Table from "./components/Table"
 import Buttons from "./pages/Buttons"
 import { Route, Routes } from "react-router-dom"
+
 
 
 function App() {
