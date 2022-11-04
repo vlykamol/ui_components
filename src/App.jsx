@@ -1,12 +1,19 @@
+import Sidebar from "./components/Sidebar"
+import Slider from "./components/Slider"
+import Table from "./components/Table"
+import Buttons from "./pages/Buttons"
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
 
   return (
-    <div className="bg-slate-500 text-white">
-      hey
-      hey from sri
-    </div>
+    <Routes>
+      <Route path="/buttons" element={<Buttons />} />
+      <Route path="/sidebar" element={<Sidebar />} />
+      <Route path="/slider" element={<Slider />} />
+      <Route path="/table" element={<Table />} />
+    </Routes>
   )
 }
 
